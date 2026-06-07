@@ -434,9 +434,34 @@ pip install -r requirements.txt
 
 Ensure you're using valid IANA timezone strings (e.g., `America/New_York`, `Europe/London`, `Asia/Tokyo`). You can find a list at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+## License & Attribution
+
+This API uses the [Swiss Ephemeris](https://www.astro.com/swisseph/) library for astronomical calculations.
+
+### Swiss Ephemeris Licensing
+
+The Swiss Ephemeris is **dual-licensed**:
+
+- ✅ **FREE** for personal, educational, and non-commercial use
+- ⚠️ **Commercial license required** for commercial applications
+- More information: https://www.astro.com/swisseph/swephinfo_e.htm
+
+**Important**: If you plan to use this API in a commercial product or service, you must obtain a commercial license from Astrodienst AG for the Swiss Ephemeris library.
+
+### This API Code
+
+This API code (excluding the Swiss Ephemeris library) is open source. Feel free to use, modify, and distribute according to your needs, but remember to respect the Swiss Ephemeris licensing requirements.
+
+## Attribution
+
+- **Swiss Ephemeris**: Copyright © 1997-2021 Astrodienst AG, Switzerland
+- Built with [FastAPI](https://fastapi.tiangolo.com/)
+- Powered by [PySwissEph](https://pypi.org/project/pyswisseph/)
+
 ## Support
 
 For issues or questions, please check:
 - Interactive API docs at `/docs`
 - This README
 - Test files for usage examples
+- GitHub Issues: https://github.com/LanreDaDev/agent-astro/issues
